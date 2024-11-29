@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/data")
     public String getData() {
-        return "second version of code from rakesh Goud released on October 24th OCTOBER!";
+        return "second version of code from rakesh Goud released on 29th November!";
     }
 
     @GetMapping("/message")
     public String getMessage() {
-        return "Thank you for the message!";
+        return "Thank you for the message! Noted the date";
     }
 }
